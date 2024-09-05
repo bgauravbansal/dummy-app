@@ -1,0 +1,25 @@
+.App {
+display: flex;
+justify-content: center;
+}
+
+.table {
+  border: 1px solid black;
+}
+
+.header {
+  background-color: aliceblue;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.tableRow {
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+.item {
+  max-width: 300px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
